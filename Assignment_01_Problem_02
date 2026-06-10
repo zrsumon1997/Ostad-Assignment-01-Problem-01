@@ -1,0 +1,30 @@
+
+#Assignment topic : Write a program that takes two numbers and an operator (+, -, *, /) and performs the calculation.
+
+#Code starts from here
+
+#Define variables
+
+number_01 = 17
+number_02 = 12
+
+#addition
+import operator as op
+print("Result of addition = ", op.add(number_01,number_02))
+
+#Subtraction
+print("Result of Subtraction = ", op.sub(number_01,number_02))
+
+#Multiplication
+print("Result of Multiplication = ", op.mul(number_01,number_02))
+
+#Normal Division
+print("Result of Division = ", op.truediv(number_01,number_02))
+
+#Floor division
+print("Result of Floor Division = ", op.floordiv(number_01,number_02))
+
+#Modulus
+print("Result of Modulas = ", op.mod(number_01,number_02))
+
+#End of the code
