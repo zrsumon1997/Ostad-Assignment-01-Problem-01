@@ -1,0 +1,13 @@
+#Here is my first assignment with Ostad and Problem 01
+
+
+''' Task 01: Write a Python program that takes a number as input and checks whether it is even or odd.'''
+#Start Code
+#Take input form the user
+number = int(input("Enter a number: "))
+
+#Check the number is even or odd
+if number % 2 == 0:
+    print("Result", '=', "The number is even.")
+else:
+    print("Result", '=', "The number is odd")
