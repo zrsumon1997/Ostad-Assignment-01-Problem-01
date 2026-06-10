@@ -1,0 +1,22 @@
+
+#For loop
+# Assignment topic = Write a program using a for loop that calculates the sum of even numbers between 1 and 100.
+#Start code
+total = 0
+for i in range(1,101):
+    if i % 2 == 0:
+        total +=i
+print("Sum of even numbers between 1 and 100 is:",total)
+
+#End code
+
+
+#My practice
+# for i in range(5):
+#     print(i)
+
+# for i in range(1,6):
+#     print(i)
+
+# for i in range(1,12,2):
+#     print(i)
